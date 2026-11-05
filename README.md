@@ -51,7 +51,7 @@ Key Features**
  **Zero Installation** - Runs in any modern web browser with HTTPS  
  **Accessibility-Focused** - Designed for users with motor impairments and speech limitations  
  **Multi-language Support** - Works with any language or custom phrases  
- **Cross-Platform** - Compatible with desktop, tablet, and mobile devices  
+ **Cross-Platform** - Compatible with desktop, tablet, and mobile devices
 
 ## ️ **Technology Stack**
 
@@ -67,11 +67,22 @@ Key Features**
 ![Next.js](https://img.shields.io/badge/Next.js_API-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Web Speech API](https://img.shields.io/badge/Web_Speech_API-FF4081?style=for-the-badge&logo=googlechrome&logoColor=white)
 
+<details>
+<summary><b>Expand ️ **Technology Stack** Details</b></summary>
+<br/>
+
 ---
 
-##  **Vision & Impact**
+<br/>
+</details>
+
+## **Vision & Impact**
 
 ### **Everyone Deserves a Voice**
+
+<details>
+<summary><b>Expand **Vision & Impact** Details</b></summary>
+<br/>
 
 Blink Speech was born from a simple yet powerful belief: **communication is a fundamental human right**. By transforming natural eye movements into spoken words, we're breaking down barriers that prevent people from expressing their thoughts, needs, and emotions.
 
@@ -103,52 +114,19 @@ Blink Speech was born from a simple yet powerful belief: **communication is a fu
 
 ---
 
-##  **Quick Start**
+<br/>
+</details>
 
-### **For Users**
-1. ** Try the Demo Video**: [YouTube Demo](https://youtu.be/evakcT6qGRI)
-2. ** Read the User Guide**: [Complete usage instructions](./docs/user-guide.md)
-3. ** Complete Calibration**: Follow the 5-point setup for optimal accuracy
-4. **️ Start Communicating**: Use blinks and gaze to speak!
-
-### **For Developers**
-1. ** Clone the Repository**
-   ```bash
-   git clone https://github.com/Luxion-Labs/Blink-Speech.git
-   cd Blink-Speech
-   ```
-
-2. **️ Install Dependencies**
-   ```bash
-   # Frontend
-   cd frontend && npm install
-   
-   # Backend
-   cd ../backend && npm install
-   ```
-
-3. ** Configure Environment**
-   - Set up [Supabase](https://supabase.com) project
-   - Copy `.env.example` files and configure variables
-   - See [Installation Guide](./docs/installation.md) for details
-
-4. ** Run Development Servers**
-   ```bash
-   # Terminal 1 - Frontend (https://localhost:5173)
-   cd frontend && npm run dev
-   
-   # Terminal 2 - Backend (http://localhost:3001)
-   cd backend && npm run dev
-   ```
-
----
-
-##  **Complete Documentation**
+## **Complete Documentation**
 
 ### ** User Documentation**
 - [ **User Guide**](./docs/user-guide.md) - How to use Blink Speech effectively
 - [ **Troubleshooting**](./docs/troubleshooting.md) - Solve common issues
 - [️ **Configuration**](./docs/configuration.md) - Customize settings and preferences
+
+<details>
+<summary><b>Expand **Complete Documentation** Details</b></summary>
+<br/>
 
 ### **️ Technical Documentation**
 - [️ **Installation Guide**](./docs/installation.md) - Development and production setup
@@ -166,6 +144,9 @@ Blink Speech was born from a simple yet powerful belief: **communication is a fu
 
 ---
 
+<br/>
+</details>
+
 ##  **Team**
 
 | Role | Name | GitHub | 
@@ -175,13 +156,17 @@ Blink Speech was born from a simple yet powerful belief: **communication is a fu
 | ️ **Backend Lead** | Ayush Sarkar | [@dev-Ninjaa](https://github.com/dev-Ninjaa) | 
 ---
 
-##  **How It Works**
+## **How It Works**
 
 ### **1. ️ Gesture Recognition**
 Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 - **Blink Patterns**: Single, double, triple, and long blinks
 - **Gaze Directions**: Left, right, up, down, and center positioning
 - **Combined Gestures**: Blinks + gaze for complex communication (20+ combinations)
+
+<details>
+<summary><b>Expand **How It Works** Details</b></summary>
+<br/>
 
 ### **2.  Real-time Processing**
 - **<150ms Detection Latency**: Near-instantaneous gesture recognition
@@ -203,13 +188,20 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 
 ---
 
-##  **Medical & Healthcare Applications**
+<br/>
+</details>
+
+## **Medical & Healthcare Applications**
 
 ### **Critical Care Benefits**
  **Emergency Communication**: Instant access to critical phrases ("Help", "Pain", "Emergency")  
  **Patient Monitoring**: Non-verbal feedback for medical assessment  
  **Telemedicine Integration**: Remote patient communication capabilities  
  **Rapid Response**: Immediate notification systems for urgent needs
+
+<details>
+<summary><b>Expand **Medical & Healthcare Applications** Details</b></summary>
+<br/>
 
 ### **Rehabilitation Support**
  **Stroke Recovery**: Bridge communication during speech therapy  
@@ -225,7 +217,10 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 
 ---
 
-##  **Performance & Compatibility**
+<br/>
+</details>
+
+## **Performance & Compatibility**
 
 ### **System Specifications**
 - **Detection Accuracy**: >95% in optimal conditions
@@ -233,6 +228,10 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 - **Frame Rate**: Adaptive 15-30 FPS based on device capabilities
 - **Memory Usage**: <100MB typical operation
 - **Storage**: ~50MB for complete application cache
+
+<details>
+<summary><b>Expand **Performance & Compatibility** Details</b></summary>
+<br/>
 
 ### **Browser Support**
 | Browser | Version | MediaPipe | WebGazer | Speech API | Status |
@@ -250,13 +249,20 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 
 ---
 
-##  **Roadmap & Future Features**
+<br/>
+</details>
+
+## **Roadmap & Future Features**
 
 ### ** Version 2.0 (In Development)**
 -  **AI-Powered Phrase Prediction**: Context-aware phrase suggestions
 -  **Enhanced Multi-language**: 50+ languages with native voices
 -  **Analytics Dashboard**: Usage patterns and communication insights
 -  **Healthcare Integrations**: Direct API connections to medical systems
+
+<details>
+<summary><b>Expand **Roadmap & Future Features** Details</b></summary>
+<br/>
 
 ### ** Future Innovations**
 -  **AR/VR Integration**: Wearable device support (AR glasses, smart contact lenses)
@@ -273,7 +279,10 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
 
 ---
 
-##  **Key Features**
+<br/>
+</details>
+
+## **Key Features**
 
 ### ** Core Capabilities**
  **Zero Installation** - Works instantly in any modern browser  
@@ -282,6 +291,10 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
  **Custom Mappings** - Create your own gesture-to-phrase combinations  
  **Multi-language** - Support for any language or custom phrases  
  **Offline Ready** - Core features work without internet connection  
+
+<details>
+<summary><b>Expand **Key Features** Details</b></summary>
+<br/>
 
 ### ** Accessibility Features**
  **High Contrast Mode** - Enhanced visibility for users with visual impairments  
@@ -300,6 +313,9 @@ Advanced computer vision powered by MediaPipe and WebGazer.js detects:
  **Real-time Logging** - Optional activity tracking for healthcare providers
 
 ---
+
+<br/>
+</details>
 
 ##  **Contributing**
 
@@ -323,17 +339,6 @@ We welcome contributions from developers, researchers, and accessibility advocat
 3. Check existing issues and discussions before creating new ones
 4. Write clear commit messages and documentation
 5. Test thoroughly and include relevant test cases
-
----
-
-##  **License**
-
-Blink Speech is open-source software licensed under the [MIT License](./LICENSE). This means you can:
-
- **Use** - For personal, commercial, or research purposes  
- **Modify** - Adapt the code to your specific needs  
- **Distribute** - Share with others or deploy your own version  
- **Contribute** - Help improve the project for everyone  
 
 ---
 
@@ -395,6 +400,3 @@ For urgent accessibility needs or critical bugs affecting communication:
 
 ## Maintainer Response SLA
 Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
-
-## License
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
